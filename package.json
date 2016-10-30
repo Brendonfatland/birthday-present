@@ -1,0 +1,30 @@
+{
+  "name": "birthday-present",
+  "version": "1.0.0",
+  "description": "wife birthday present",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brendonfatland/birthday-present.git"
+  },
+  "author": "brendon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brendonfatland/birthday-present/issues"
+  },
+  "homepage": "https://github.com/Brendonfatland/birthday-present#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.11",
+    "mongoose": "^4.6.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.1.2"
+  }
+}

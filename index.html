@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="utf-8" content="Jenny's birthday present. Messages from her family and friends.">
+    <title>Jenny's birthday gift</title>
+  </head>
+  <body>
+    <div class="messages">
+      <h1>Jenny we love you</h1>
+      <div class="userMessages"></div>
+      <form action="/comments" method="POST">
+        <input type="text" placeholder="Name" name="name" required>
+        <input id="userInput" type="text" placeholder="Please write Jenny a message here!" name="message" autocomplete="off" required/>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div class="media">media</div>
+<!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
